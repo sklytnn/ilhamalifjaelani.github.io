@@ -1,0 +1,138 @@
+/* NAVBAR */
+.navbar-brand {
+
+  font-family: lato;
+  font size: 32 px;
+  
+}
+
+/* akhir navbar */
+
+
+
+
+/* jumbotron */
+
+
+.jumbotron {
+  padding: 2rem 1rem;
+  background-color: rgb(241, 241, 241);
+  height: 640px;
+  
+}
+
+
+.jumbotron .display-4{
+  text-align: center;
+  margin-top: 200px;
+  font-size: 36px ;
+  font-weight: 300;
+}
+
+
+.jumbotron .display-4 span{
+  font-weight: 500;
+  color: #502C86;
+}
+
+
+/* akhir jumbotron */
+
+
+#about {
+  height: 780px;
+  padding: 45px;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.col-md-4 {
+  margin-top: 25px;
+}
+
+
+.row {
+  padding: 3rem 1rem;
+}
+
+#projects {
+  background-color: rgb(241, 241, 241);
+  text-align: center;
+  height: 1500px;
+  padding-top: 20px;
+}
+
+.img {
+  text-align: center;
+}
+
+.img img {
+margin-top: 110px;
+
+}
+
+
+.footer p{
+  margin-top: -90px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/* desktop version */
+@media (min-width: 992px) {
+
+  .nav-link{
+    text-transform: uppercase;
+    margin-right: 35px;
+  }
+
+
+  
+.nav-link:hover::after{
+  content: '';
+  display: block;
+  border-bottom: 3px solid lightslategray;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+
+.jumbotron {
+  height: 992px;
+
+}
+
+
+.jumbotron .display-4{
+  font-size: 46px ;
+  margin-top: 400px;
+}
+
+#about {
+  height: 992px;
+  padding: 260px;
+  text-align: left;
+
+}
+
+
+.col-md-5 img{
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+
+#projects {
+  height: 992px;
+  padding-top: 200px;
+}
+
+
+}
